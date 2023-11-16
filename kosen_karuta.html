@@ -49,7 +49,8 @@
     drawKarutaBtn.disabled = disableDraw;
   }
 
-  const data = await CSV.fetchJSON("../data/kosen_school_emblem.csv");
+  const url = "https://codeforkosen.github.io/kosen-opendata/data/kosen_school_emblem.csv";
+  const data = await CSV.fetchJSON(url);
   const questionText = document.getElementById("question-text");
   const wrongCountText = document.getElementById("wrong-count-text");
   const showHintBtn = document.getElementById("show-hint-button");
