@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
-<title>KOSEN Emblem</title>
+<title>高専かるた</title>
 </head><body>
 
 <h1>高専かるた</h1>
@@ -7,8 +7,8 @@
 <h2>読み札: <span id=question-text></span></h2>
 <h2>御手付きの回数: <span id=wrong-count-text>0</span></h2>
 <button id=show-hint-button onclick=showHint()>ヒント（校章の由来）</button>
-<button id=show-answer-button onclick=showAnswer()>答えの札を強調</button>
-<button id=draw-karuta-button onclick=drawNextKaruta() disabled>次の札</button>
+<button id=show-answer-button onclick=showAnswer()>取札を強調</button>
+<button id=draw-karuta-button onclick=drawNextKaruta() disabled>次の読札</button>
 <main id=main></main>
 
 <script type="module">
@@ -86,7 +86,8 @@ drawNextKaruta();
 
 </script>
 
-<div><a href=https://github.com/codeforkosen/kosen-opendata/>data and src on GitHub</a></div>
+<div><a href=https://github.com/codeforkosen/kosen-opendata/blob/main/data/kosen_school_emblem.csv/>data on GitHub</a></div>
+<div><a href=https://github.com/daiking1756/kosen-apps/blob/main/karuta.html>src on GitHub</a></div>
 
 <style>
 body {
