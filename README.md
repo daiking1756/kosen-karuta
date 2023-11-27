@@ -1,7 +1,9 @@
 # kosen-karuta
 
 ## DEMO
-link: https://daiking1756.github.io/kosen-karuta/
+~~link: https://daiking1756.github.io/kosen-karuta/~~
+
+https://codeforkosen.github.io/kosen-apps/karuta.html へ移行しました。
 
 ## 概要
 
